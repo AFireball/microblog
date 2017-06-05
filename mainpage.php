@@ -8,4 +8,3 @@
 echo "Hello world";
 echo "Kek";
 echo "Lol";
-echo "Cheburek";
