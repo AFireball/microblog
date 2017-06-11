@@ -2,6 +2,20 @@ body {
     width: auto;
 }
 
+#photo {
+    margin:-10px 0px 0px 0px;
+    height: 150px;
+    width: 100%;
+    background-image: url("../img/Maslbor.jpg");
+    z-index: 2;
+    position: relative;
+}
+
+#flow {
+    margin-top: -50px;
+    z-index: 3;
+    position: relative;
+}
 img{
     border:solid 1px #a9a7ab ;
 }
@@ -16,7 +30,10 @@ img{
 
 #header1 {
     background: #2b2b2b repeat;
+}
 
+#header2 {
+    margin-bottom: 0px;
 }
 
 i {
@@ -36,6 +53,15 @@ i {
     float: right;
 }
 
+#redline-1 {
+    background-color: #d40c38;
+    height: 8px;
+    width: 100%;
+    float: right;
+    margin-top: -40px;
+}
+
+
 h6 {
     visibility: hidden;
 }
@@ -44,6 +70,9 @@ footer {
     background-color:#2b2b2b;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    margin-top: -60px;
+    position: relative;
 }
 
 hr{
@@ -65,6 +94,7 @@ hr{
     max-height: 3000px;
     margin-bottom: 20px;
     padding: 0px;
+    background-color: white;
 
 
 }
@@ -92,6 +122,10 @@ hr{
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+}
+
+#footer {
+    margin-top: px;
 }
 
 #page-i:hover {
