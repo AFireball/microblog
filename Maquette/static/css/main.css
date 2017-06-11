@@ -1,5 +1,13 @@
 body {
-    overflow: auto;
+    width: auto;
+}
+
+img{
+    border:solid 1px #a9a7ab ;
+}
+
+#tags {
+    color: #d40c38;
 }
 
 #ff{
@@ -54,9 +62,10 @@ hr{
 #body {
     border: solid #a9a7ab;
     border-top-width: 0px;
-    min-height: 1200px;
+    max-height: 3000px;
     margin-bottom: 20px;
     padding: 0px;
+
 
 }
 
@@ -69,6 +78,25 @@ hr{
 
 #body-header-text {
     margin: 40px 20px 20px 30px;
+}
+
+#page {
+    margin: 20px 10px 20px 10px;
+}
+
+#page-i {
+    color:black;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#page-i:hover {
+    background-color: #d40c38;
+    color: white;
 }
 
 #active:hover {
